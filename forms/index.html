@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dine booking</title>
+
+        <style>
+            
+           thead{
+           text-align: center;
+           
+           height: 30px;
+           }
+           body{
+            border: 1px solid black;
+            margin-top: 150px;
+            margin-left: 150px;
+            margin-right: 150px;
+            padding-bottom: 100px;
+            padding-top: 10px;
+           
+            
+           }
+          
+
+          
+     
+
+        </style>
+    </head>
+    <body>
+      
+          
+        <table align="center" >
+            <thead >
+                <caption>Dine Booking</caption>
+                </thead>
+                <tbody  class="b">
+            <form action="successfulbooking.html" method="post">
+            <br><tr>
+                <td>Visitor Name:</td>
+                <td><input type="text" id="fn" name="fn" required ></td>
+            </tr>
+            <tr>
+                <td>Number of members: </td>
+                <td><input type="number" id="num" minlength="2"required></td>
+            </tr>
+            <tr>
+                <td>Contact No : </td>
+                <td><input type="number" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email"required></td>
+
+            </tr>
+            <tr>
+                <td>Type of Food: </td>
+                <td><input type="checkbox" name="I">South Indian
+                <input type="checkbox" name="I">North Indian
+                <input type="checkbox" name="I">Chinese
+                <input type="checkbox" name="I">Westren</td>
+            </tr>
+            <tr>
+                <td>Room Status: </td>
+                <td><input type="radio" name="c"value="Ac">Ac
+                <input type="radio" name="c" value="n-ac">Non-Ac
+                </td>
+            </tr>
+            <tr>
+                <td>Venue Preference:</td>
+                <td><select>
+                    <option>select</option>
+                    <option>Arena</option>
+                    <option>Fiesta</option>
+                    <option>Vista</option>
+                    <option>Mythri</option>
+                    <option>Magna</option>
+                    <option>Oasis</option>
+                    <option>Amoeba</option>
+                </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="book"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+            </form>
+        </tbody>
+            </table>
+        
+  
+    </body>
+</html>
